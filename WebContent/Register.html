@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register New Admin </title>
+<link rel="stylesheet" href="loginpage.css">
+</head>
+<body>
+<h1>Jewellery Shop</h1>
+    <form action="RegisterServlet">
+        <!-- Headings for the foram -->
+        <div class="headingsContainer">
+            <h3>Sign Up</h3>
+           
+        </div>
+
+        <!-- Main container for all inputs -->
+        <div class="mainContainer">
+            <!-- Username -->
+            <label for="username">Enter Username</label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="pswrd">Enter Password</label>
+            <input type="password" placeholder="Enter Password" name="pass" required>
+            <br><br>
+
+            <!-- Password -->
+            <label for="cpass">Confirm password</label>
+            <input type="password" placeholder="Confirm Password" name="cpass" required>
+            <br><br>
+
+            <!-- Mobile -->
+            <label for="mno">Enter Your Mobile No</label>
+            <input type="text" placeholder="Enter Mobile No" name="mno" required maxlength="10" min="10">
+
+           
+
+
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+
+            
+            </div>
+            </form>
+</body>
+</html>
